@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "aws-sdk": "^2.918.0",
+    "cors": "^2.8.5",
     "dotenv": "^10.0.0"
   }
 }
