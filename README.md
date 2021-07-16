@@ -1,5 +1,8 @@
+## LICENSE!
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/ManoelPatrocinio/ImgUpload/blob/main/LICENSE) 
+
 # ImgUpload
-Aplicação para upload e compartilhamento(link) de imagens com font-end em react e back-end em nodeJS
+Aplicação para upload e compartilhamento(link) de imagens, com font-end em reactJS e back-end em nodeJS
 
 # TECNOLOGIAS USADAS
     FRONT-END
@@ -11,9 +14,12 @@ Aplicação para upload e compartilhamento(link) de imagens com font-end em reac
         MORGAN
         MULTER
         AXIOS
+        AWS
+    BANCO DE DADOS 
+        MONGODB
        
 
-## COMANDOS USADOS
+### COMANDOS USADOS
     yarn add express morgan mongoose multer -D
     yarn add nodemon -D
     yarn add multer-s3  => permite fazer o storage na WS
@@ -32,7 +38,3 @@ Aplicação para upload e compartilhamento(link) de imagens com font-end em reac
 
 
 
-### NOTAS
-  MULTER:
-    o multer vai funcionar como um middleware,
-    moulter().single : fará o upload de apenas 1 arquivo por vez, p/ assim podemos acompanhar o progresso
