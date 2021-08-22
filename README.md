@@ -18,6 +18,8 @@ Aplicação para upload e compartilhamento(link) de imagens, com font-end em rea
     BANCO DE DADOS 
         MONGODB
        
+# Layout
+![uploadImg](https://user-images.githubusercontent.com/47128362/130338508-001d5999-c9e3-4195-9fc9-8276afefcac4.png)
 
 ### COMANDOS USADOS
     yarn add express morgan mongoose multer -D
